@@ -56,19 +56,19 @@ This project is a front-end clone of YouTube's user interface, focusing on:
 
 ```
 Youtube-Clone/
-├── youtube.html           # Main YouTube clone page
-├── flexbox.html          # Flexbox practice exercises
-├── grid.html             # CSS Grid practice exercises
-├── position.html         # CSS positioning practice
+├── youtube.html           
+├── flexbox.html          
+├── grid.html             
+├── position.html         
 ├── styles/
-│   ├── general.css       # Global styles and resets
-│   ├── header.css        # Header section styles
-│   ├── sidebar.css       # Sidebar navigation styles
-│   └── video.css         # Video grid and card styles
-├── thumbnails/           # Video thumbnail images
-├── channel-pictures/     # Channel profile pictures
-├── icons/                # SVG icons for UI elements
-└── intro-to-html/        # HTML learning materials
+│   ├── general.css       
+│   ├── header.css        
+│   ├── sidebar.css       
+│   └── video.css        
+├── thumbnails/           
+├── channel-pictures/     
+├── icons/                
+└── intro-to-html/        
 ```
 
 ## 🎓 Learning Outcomes
@@ -114,13 +114,6 @@ start youtube.html
 
 Or simply double-click the `youtube.html` file to open it in your default browser.
 
-## 📸 Screenshots
-
-The clone includes:
-- Fully functional header with search capabilities
-- Left sidebar navigation menu
-- Grid-based video feed with 6+ video cards
-- Hover effects and interactive elements
 
 ## 🎯 Key CSS Techniques
 
@@ -151,20 +144,7 @@ The clone includes:
 }
 ```
 
-## 🔄 Practice Files
 
-Included practice files for learning:
-- `flexbox.html` - Flexbox layout exercises
-- `grid.html` - CSS Grid layout exercises  
-- `position.html` - CSS positioning exercises
-
-## 🌐 Browser Compatibility
-
-Tested and working on:
-- Google Chrome (latest)
-- Mozilla Firefox (latest)
-- Safari (latest)
-- Microsoft Edge (latest)
 
 ## 📝 Future Enhancements
 
