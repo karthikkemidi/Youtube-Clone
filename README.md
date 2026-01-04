@@ -54,21 +54,22 @@ This project is a front-end clone of YouTube's user interface, focusing on:
 
 ## 📁 Project Structure
 
+```
 Youtube-Clone/
-├── youtube.html # Main YouTube clone page
-├── flexbox.html # Flexbox practice exercises
-├── grid.html # CSS Grid practice exercises
-├── position.html # CSS positioning practice
+├── youtube.html           # Main YouTube clone page
+├── flexbox.html          # Flexbox practice exercises
+├── grid.html             # CSS Grid practice exercises
+├── position.html         # CSS positioning practice
 ├── styles/
-│ ├── general.css # Global styles and resets
-│ ├── header.css # Header section styles
-│ ├── sidebar.css # Sidebar navigation styles
-│ └── video.css # Video grid and card styles
-├── thumbnails/ # Video thumbnail images
-├── channel-pictures/ # Channel profile pictures
-├── icons/ # SVG icons for UI elements
-└── intro-to-html/ # HTML learning materials
-
+│   ├── general.css       # Global styles and resets
+│   ├── header.css        # Header section styles
+│   ├── sidebar.css       # Sidebar navigation styles
+│   └── video.css         # Video grid and card styles
+├── thumbnails/           # Video thumbnail images
+├── channel-pictures/     # Channel profile pictures
+├── icons/                # SVG icons for UI elements
+└── intro-to-html/        # HTML learning materials
+```
 
 ## 🎓 Learning Outcomes
 
@@ -90,15 +91,17 @@ This project helped develop skills in:
 ### Installation
 
 1. Clone the repository:
-```
+```bash
 git clone https://github.com/karthikkemidi/Youtube-Clone.git
 ```
-Navigate to the project directory:
-```
+
+2. Navigate to the project directory:
+```bash
 cd Youtube-Clone
 ```
-Open youtube.html in your browser:
-```
+
+3. Open `youtube.html` in your browser:
+```bash
 # On macOS
 open youtube.html
 
@@ -108,77 +111,91 @@ xdg-open youtube.html
 # On Windows
 start youtube.html
 ```
-Or simply double-click the youtube.html file to open it in your default browser.
 
-📸 Screenshots
+Or simply double-click the `youtube.html` file to open it in your default browser.
+
+## 📸 Screenshots
+
 The clone includes:
+- Fully functional header with search capabilities
+- Left sidebar navigation menu
+- Grid-based video feed with 6+ video cards
+- Hover effects and interactive elements
 
-Fully functional header with search capabilities
+## 🎯 Key CSS Techniques
 
-Left sidebar navigation menu
+### CSS Grid Implementation
+```css
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+```
 
-Grid-based video feed with 6+ video cards
+### Flexbox for Header
+```css
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+```
 
-Hover effects and interactive elements
+### Tooltip Positioning
+```css
+.tooltip {
+  position: absolute;
+  /* Positioned relative to parent container */
+}
+```
 
+## 🔄 Practice Files
 
-🌐 Browser Compatibility
+Included practice files for learning:
+- `flexbox.html` - Flexbox layout exercises
+- `grid.html` - CSS Grid layout exercises  
+- `position.html` - CSS positioning exercises
+
+## 🌐 Browser Compatibility
+
 Tested and working on:
+- Google Chrome (latest)
+- Mozilla Firefox (latest)
+- Safari (latest)
+- Microsoft Edge (latest)
 
-Google Chrome (latest)
+## 📝 Future Enhancements
 
-Mozilla Firefox (latest)
+- [ ] Add JavaScript for interactive search functionality
+- [ ] Implement video filtering and sorting
+- [ ] Add dark mode toggle
+- [ ] Make fully responsive for mobile devices
+- [ ] Add video player page
+- [ ] Implement comment section
+- [ ] Add user authentication UI
 
-Safari (latest)
+## 🤝 Contributing
 
-Microsoft Edge (latest)
-
-📝 Future Enhancements
- Add JavaScript for interactive search functionality
-
- Implement video filtering and sorting
-
- Add dark mode toggle
-
- Make fully responsive for mobile devices
-
- Add video player page
-
- Implement comment section
-
- Add user authentication UI
-
-🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-👨‍💻 Author
-Karthik Kemidi
+## 👨‍💻 Author
 
-GitHub: @karthikkemidi
+**Karthik Kemidi**
+- GitHub: [@karthikkemidi](https://github.com/karthikkemidi)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/karthik-kemidi-b4924a25a/)
 
-LinkedIn: https://www.linkedin.com/in/karthik-kemidi-b4924a25a/
+## 📄 License
 
-📄 License
 This project is for educational purposes. YouTube and its logo are trademarks of Google LLC.
 
-🙏 Acknowledgments
-YouTube for the original design inspiration
+## 🙏 Acknowledgments
 
-Google Fonts for the Roboto font family
+- YouTube for the original design inspiration
+- Google Fonts for the Roboto font family
+- SuperSimpleDev for educational content and guidance
 
-SuperSimpleDev for educational content and guidance
+---
 
 ⭐ Star this repository if you found it helpful!
-
-text
-
-**To add this to your repository:**
-
-1. Copy the entire content above (from `# YouTube Clone 🎥` to the end)
-2. Go to https://github.com/karthikkemidi/Youtube-Clone
-3. Click "Add file" → "Create new file"
-4. Name it `README.md`
-5. Paste the content
-6. Scroll down and click "Commit new file"
-
-This README will make your repository look professional and showcase your frontend development skills to recruiters!
